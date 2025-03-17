@@ -1,0 +1,204 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100vh;
+    width: 75%;
+
+}
+
+form {
+    width: 50%;
+    border: 20px solid rgb(82, 82, 126);
+    ;
+    margin: 10px;
+    background-clip: padding-box;
+
+
+}
+
+h1 {
+    color: rgb(89, 89, 106);
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+
+}
+
+.container {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    margin: 0px;
+
+}
+
+.top,
+.bottom {
+    height: 10%;
+    background-color: rgb(198, 223, 233);
+}
+
+.middle {
+    flex-grow: 1;
+    display: inline-block;
+    justify-content: center;
+    background-color: white;
+
+    font-weight: bold;
+    margin: 20px;
+}
+
+input[type="button"] {
+    background-color: rgb(54, 54, 232);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 10px;
+    float: right;
+}
+
+input[type="email"] {
+    display: flex;
+
+    width: 100% !important;
+}
+
+
+input:not([type="button"], [type="radio"], [type="checkbox"]) {
+
+    width: 250px;
+    padding: 10px;
+    margin: 5px;
+    max-width: 400px;
+    min-width: 100px;
+    box-sizing: border-box;
+    border: 1px groove rgb(112, 119, 118);
+    border-radius: 5px;
+    display: block;
+
+}
+
+.gender .hobbies {
+    display: inline-block;
+    flex-grow: 1;
+
+}
+
+label {
+    margin: 10px 0px 0px 10px;
+    color: rgb(6, 194, 169);
+}
+
+
+input[type="textarea"] {
+    max-width: 400px;
+    min-width: 100px;
+}
+
+.group {
+    display: inline-block;
+    margin-left: 2px;
+}
+
+button {
+    height: 30px;
+    width: 11%;
+    color: white;
+    background-color: rgb(6, 194, 169);
+    font-weight: bold;
+    border-radius: 5px;
+    justify-content: center;
+    border: none;
+
+
+}
+
+.group1 {
+    display: flex;
+    margin: 1px;
+    justify-content: space-between;
+}
+
+input[type='range'] {
+    height: 40%;
+    width: 200px;
+    margin: 0;
+    display: inline-block;
+}
+
+/* <div class="middle">
+                    <div class="group">
+                    <label for="name">First name*</label>
+                    <input type="text" id="name" name="name" placeholder="enter your first name" required/>
+                   </div>
+            
+                   <div  class="group">
+                    <label for="name">Last name</label>
+                    <input type="text" id="name" name="name" placeholder="enter your last name"/>
+                   </div>
+
+                   <div >
+                    <label for="email">Email*</label>
+                    <input type="email" id="email" placeholder="enter your email" name="email" required />
+                   </div>
+
+                   <div class="group">
+                    <label for="password">Password*</label>
+                    <input type="password" placeholder="enter your password" id="password" name="pass" required />
+                   </div>
+
+                   <div class="group">
+                    <label for="confirmPassword">Confirm Password*</label>
+                    <input type="password" id="confirmPassword" placeholder="enter your password again" name="confirmPass" required />
+                   </div>
+                    
+                   <div class="group">
+                   
+                   <label>Gender:</label>
+                    <div class="gender">
+                    <label for="male"><input type="radio" name="gender" value="male" id="male" required /> Male</label>
+                    <label for="female"><input type="radio" name="gender" value="female" id="female" /> Female</label>  
+                    
+                    </div>
+                   </div>
+
+
+                   <div class="group">
+                    <label for="hobbies">Hobbies</label>
+                    <div class="hobbies">
+                    <label><input type="checkbox" name="Music" value="Music" id="hobbies" />Music</label> 
+                    <label><input type="checkbox" name="Sports" value="Sports" id="hobbies" />Sports</label> 
+                    <label><input type="checkbox" name="Travel" value="travel" id="hobbies" />Travel</label> 
+                    <label><input type="checkbox" name="Movies" value="Movies" id="hobbies" />Movies</label> 
+                </div>
+                </div>
+                <div class="group1">
+                    <label for="Sincome">Source of Income</label>
+                    <input type="number" id="Sincome" name="dob" value="Employed" placeholder="Employed"/>
+               
+                    <label for="income">Income</label>
+                    <input type="range" name="income" min="0" max="10" placeholder="Enter your income">
+                    <button>20k</button>
+                </div>
+
+            <div class="group">
+                    <label for="profilePic">Upload Profile Piture</label>
+                    <input type="file" name="profilePic" id="profilePic"/>
+            </div>
+
+        <div class="group">
+                    <label for="age">Age</label>
+                    <input type="number" id="age" name="age" value="18" required />
+                    
+                </div>
+
+            <div >
+                <label for="Bio">Bio</label> 
+                    <textarea name="Bio" id="Bio" cols="70" rows="6" placeholder="Enter your Bio"></textarea>
+
+            </div>
+            </div> */
