@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Task2.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="container">
+            <div class="top">
+                <h1>Create Account</h1>
+            </div>
+            <div class="middle">
+                <!-- first Block -->
+                <div class="group1">
+                    <div class="block-1">
+                        <label for="name">First name*</label>
+                        <div>
+                            <input class="all-input" type="text" id="name" name="name" placeholder="enter your first name" required />
+                        </div>
+                    </div>
+                    <div class="block-1">
+                        <label for="name">Last name</label>
+                        <div>
+                            <input class="all-input" type="text" id="name" name="name" placeholder="enter your last name" />
+                        </div>
+                    </div>   
+                </div>
+                <!-- 2nd Block -->
+                <div class="group2">
+                    <div class="block-2">
+                        <label for="email">Email*</label>
+                        <div>
+                            <input class="email-input" type="email" id="email" placeholder="enter your email" name="email" required />
+                        </div>
+                    </div>   
+                </div>
+                <!-- 3rd Block -->
+                <div class="group1">
+                    <div class="block-1">
+                        <label for="password">Password*</label>
+                        <div>
+                            <input class="all-input"type="password" placeholder="enter your password" id="password" name="pass" required />
+                        </div>
+                    </div>
+                    <div class="block-1">
+                        <label for="confirmPassword">Confirm Password*</label>
+                    
+                        <div>
+                            <input class="all-input" type="password" id="confirmPassword" placeholder="enter your password again" name="confirmPass" required />
+                        </div>
+                    </div>   
+                </div>
+                <!-- 4th Block -->
+                <div class="group1">
+                    <div class="block-1">
+                        
+                        <label>Gender:</label>
+                            <div class="gender">
+                                <label for="male"><input  type="radio" name="gender" value="male" id="male" required />Male</label>
+                                <label for="female"><input  type="radio" name="gender" value="female" id="female" />Female</label>
+                            </div>
+                        
+                    </div>
+                    <div class="block-1">
+                        <label for="hobbies">Hobbies:</label>
+                        <div class="hobbies">
+                            <label ><input type="checkbox" name="Music" value="Music" id="hobbies" />Music</label>
+                            <label><input type="checkbox" name="Sports" value="Sports" id="hobbies" />Sports</label>
+                            <label><input type="checkbox" name="Travel" value="travel" id="hobbies" />Travel</label>
+                            <label><input type="checkbox" name="Movies" value="Movies" id="hobbies" />Movies</label>
+                        </div>
+                    </div>   
+                </div>
+                <!-- 5th Block -->
+                <div class="group1">
+                    <div class="block-1">
+                        <div>
+                            <label for="Sincome">Source of Income</label>
+                            <div>
+                                <input class=" all-input" type="number" id="Sincome" name="dob" value="Employed" placeholder="Employed"/>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="block-1">
+                        <div>
+                            <label for="income">Income</label>
+                            <div >
+                                <input  class="income-input" type="range" name="income" min="0" max="10" placeholder="Enter your income"> <button class="income-btn">20k</button>
+                            </div>
+                        </div>
+                    </div>   
+                </div>
+                <!-- 6th block -->
+                <div class="group1">
+                    <div class="block-1">
+                        <label for="profilePic">Upload Profile Piture</label>
+                        <div>
+                            <input class="all-input" type="file" name="profilePic" id="profilePic" />
+                        </div>
+                    </div>
+                    <div class="block-1">
+                        <label for="age">Age</label>
+                        <div>
+                            <input class="all-input" type="number" id="age" name="age" value="18" required />
+                        </div>
+                    </div>   
+                </div>
+                <!-- 7th block -->
+                <div class="group1">
+                    <div class="block-1">
+                        <label for="Bio">Bio</label>
+                        <div>
+                            <textarea name="Bio"lass="all-input" id="Bio" cols="55" rows="6" placeholder="Enter your Bio"></textarea>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bottom">
+                <button class="create-btn" >Create</button>
+            </div>
+        </div>
+    </div>
+   
+</body>
+</html>

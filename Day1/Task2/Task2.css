@@ -1,0 +1,80 @@
+.main-container{
+           
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+}
+.container{
+    border: 20px solid rgb(33, 33, 79);
+    height:auto;
+    width:auto;
+   
+}
+.top ,.bottom{
+    background-color: rgb(174, 226, 229);
+    color: rgb(69, 69, 69);
+    text-align: center;
+    padding: 5px;
+}
+.bottom{
+    text-align:end;
+}
+.middle{
+    margin :10px;
+}
+.create-btn{
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 10px;  
+   
+}
+.group1{
+   display: flex;
+   justify-content: space-between;
+}
+.group1 label,.group2 label{
+    color: rgb(6, 194, 169);
+    font-weight: bold;
+}
+
+.block-1{
+    margin: 2px;
+    padding: 5px;
+}
+.hobbies label ,.gender label {
+    color: black;
+    font-weight: 100;
+    font-size: small;
+}
+.income-btn{
+    height: 30px;
+    width: auto ;
+    color: white;
+    background-color: rgb(6, 194, 169);
+    font-weight: bold;
+    border-radius: 5px;
+    justify-content: center;
+    border: none;
+}
+.income-input{
+    height:2px;
+    width:170px;
+    accent-color: rgb(128, 135, 128);
+}
+
+.block-2{
+    margin: 2px;
+    padding: 5px;
+
+}
+.email-input{
+    
+    width:100%;
+}
+.all-input{
+    width: 200px;
+}
