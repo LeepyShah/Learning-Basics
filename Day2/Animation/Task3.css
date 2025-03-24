@@ -1,0 +1,75 @@
+*{
+    background-color: black;
+    display: flex;
+}
+#box{
+   height: 400px;
+   width:400px;
+   background-color: rgb(0, 0, 0);
+   padding: 8px;
+   position: relative;
+   overflow: hidden;
+}
+#in{
+    height: 100%;
+    width:100%;
+    background-image: url('flower.jpg');
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 99;
+   
+}
+#box::after{
+    content:"";
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%) rotate(45deg);
+    height: 600px;
+    width: 200px;
+    background-color: antiquewhite;
+    animation: move 1.5s infinite;
+   
+    
+}
+span{
+    position: relative;
+    font-family: "Lato",sans-serif;
+    top:20px;
+    color: white;
+    display:inline-block;
+    font-size:5rem;
+    text-shadow:0 1px 0 #b7b7b7,0 2px 0 #b7b7b7,0 3px 0  #b7b7b7,0 4px 0  #b7b7b7,0 5px 0  #b7b7b7,6px 0 transparent,0 7px 0 transparent 0 8px 0 transparent,0 9px 0 transparent,0 10px 10px rgba(0,0,0.5);
+    animation: bounce 0.4s ease infinite alternate;
+}
+@keyframes move {
+    100%{
+        transform: translate(-50%,-50%) rotate(255deg);
+    }
+    
+}
+h1 span:nth-child(2){
+    animation-delay: 0.1;
+}
+h1 span:nth-child(3){
+    animation-delay: 0.2s;
+}
+h1 span:nth-child(4){
+    animation-delay: 0.3s;
+}
+h1 span:nth-child(5){
+    animation-delay: 0.4s;
+}
+h1 span:nth-child(6){
+    animation-delay: 0.5s;
+}
+@keyframes bounce {
+    100%{
+        top:-20px;
+        text-shadow: 0 1px 0 #ccc,0 2px 0 #ccc,0 3px 0 #ccc,0 4px 0 #ccc,0 5px 0 #ccc
+        0 6px 0 #ccc,0 7px 0 #ccc,0 8px 0 #ccc,0 9px 0 #ccc ,
+        0 60px 30px black ;
+    }
+    
+}

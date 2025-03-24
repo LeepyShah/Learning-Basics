@@ -1,0 +1,27 @@
+{
+  "name": "basic_training(mv-clouds)",
+  "version": "1.0.0",
+  "description": "<h1>DAY 1<h1>",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeepyShah/Learning-Basics.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/LeepyShah/Learning-Basics/issues"
+  },
+  "homepage": "https://github.com/LeepyShah/Learning-Basics#readme",
+  "dependencies": {
+    "firebase": "^11.4.0",
+    "lite-server": "^2.6.1",
+    "prompt-sync": "^4.2.0"
+  }
+}
