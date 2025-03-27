@@ -5,21 +5,32 @@
 // EX. User input - ""16 28"" then -- 16 + 28 = 44 after this it will add digits like this
 // --4 * 4 = 16 until it gets only single digit as value-- 1 * 6 = 6
 const prompt = require("prompt-sync")();
-input=prompt("Enter Number:")
-inputs=[parseInt(input)]
 
-while(input!="null"){
-    input=prompt("Enter Number if you want to terminate enter null: ")
-    
-    if(input!="null"){
-        inputs.push(parseInt(input))
+function getSingleDigitProduct() {
+    let input = prompt("Enter a number: ");
+    let sum = parseInt(input);
+    while (true) {
+        input = prompt("Enter another number (or type 'null' to stop): ");
+        if (input.toLowerCase() === "null") {
+            break;
+        }
+        if (!isNaN(parseInt(input))) {
+            sum += parseInt(input);
+        } else {
+            console.log("Invalid input. Please enter a number or 'null' to stop.");
+        }
     }
-}
-console.log(inputs)
-add=0
-for(i=0;i<=inputs.length;i++){
-    while(inputs[i].length!=1){
-        add=add+inputs[i]
 
+    console.log("Sum of all numbers:", sum);
+
+    // Reduce the sum to a single digit by multiplying its digits
+    while (sum >= 10) {
+        let digits = sum.toString().split("").map(Number); // Split digits and convert to numbers
+        sum = digits.reduce((product, digit) => product * digit, 1); // Multiply all digits
     }
+
+    return sum;
 }
+
+const result = getSingleDigitProduct();
+console.log("Final single-digit product:", result);

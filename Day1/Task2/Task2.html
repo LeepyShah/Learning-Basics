@@ -16,15 +16,15 @@
                 <!-- first Block -->
                 <div class="group1">
                     <div class="block-1">
-                        <label for="name">First name*</label>
+                        <label for="firstName">First name*</label>
                         <div>
-                            <input class="all-input" type="text" id="name" name="name" placeholder="enter your first name" required />
+                            <input class="all-input" type="text" id="firstName" name="name" placeholder="enter your first name"autocomplete="on" required />
                         </div>
                     </div>
                     <div class="block-1">
-                        <label for="name">Last name</label>
+                        <label for="lastName">Last name</label>
                         <div>
-                            <input class="all-input" type="text" id="name" name="name" placeholder="enter your last name" />
+                            <input class="all-input" type="text" id="lastName" name="name" placeholder="enter your last name" autocomplete="on" />
                         </div>
                     </div>   
                 </div>
@@ -33,7 +33,7 @@
                     <div class="block-2">
                         <label for="email">Email*</label>
                         <div>
-                            <input class="email-input" type="email" id="email" placeholder="enter your email" name="email" required />
+                            <input class="email-input" type="email" id="email" placeholder="enter your email" name="email" autocomplete="on" required />
                         </div>
                     </div>   
                 </div>
@@ -59,18 +59,18 @@
                         
                         <label>Gender:</label>
                             <div class="gender">
-                                <label for="male"><input  type="radio" name="gender" value="male" id="male" required />Male</label>
-                                <label for="female"><input  type="radio" name="gender" value="female" id="female" />Female</label>
+                                <label><input  type="radio" name="gender" value="male" id="male" required />Male</label>
+                                <label><input  type="radio" name="gender" value="female" id="female" />Female</label>
                             </div>
                         
                     </div>
                     <div class="block-1">
-                        <label for="hobbies">Hobbies:</label>
+                        <label>Hobbies:</label>
                         <div class="hobbies">
-                            <label ><input type="checkbox" name="Music" value="Music" id="hobbies" />Music</label>
-                            <label><input type="checkbox" name="Sports" value="Sports" id="hobbies" />Sports</label>
-                            <label><input type="checkbox" name="Travel" value="travel" id="hobbies" />Travel</label>
-                            <label><input type="checkbox" name="Movies" value="Movies" id="hobbies" />Movies</label>
+                            <label><input type="checkbox" name="Music" value="Music"/>Music</label>
+                            <label><input type="checkbox" name="Sports" value="Sports"/>Sports</label>
+                            <label><input type="checkbox" name="Travel" value="travel"/>Travel</label>
+                            <label><input type="checkbox" name="Movies" value="Movies"/>Movies</label>
                         </div>
                     </div>   
                 </div>
@@ -86,7 +86,7 @@
                     </div>
                     <div class="block-1">
                         <div>
-                            <label for="income">Income</label>
+                            <label >Income</label>
                             <div >
                                 <input  class="income-input" type="range" name="income" min="0" max="10" placeholder="Enter your income"> <button class="income-btn">20k</button>
                             </div>
@@ -113,7 +113,7 @@
                     <div class="block-1">
                         <label for="Bio">Bio</label>
                         <div>
-                            <textarea name="Bio"lass="all-input" id="Bio" cols="55" rows="6" placeholder="Enter your Bio"></textarea>
+                            <textarea name="Bio"  id="Bio" cols="55" rows="6" placeholder="Enter your Bio"></textarea>
                         </div>
                     </div>
                 </div>

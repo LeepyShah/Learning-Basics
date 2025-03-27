@@ -10,15 +10,18 @@
 numbers and basic arithmetic operations -->
 <body>
    <table border="2px">
-    <tr><td colspan="4" align="center">Calculator </td></tr>
-    <tr><td  colspan="4">Enter Num:<input type="text"> <input type="text"></td></tr>
+    <tr><td colspan="4" align="center">Calculator  <input type="text" id="result" placeholder="Result" disabled></td></tr>
+    <tr><td  colspan="4">Enter Num:<input type="number" id="num1"> <input type="number" id="num2"></td></tr>
+   
     <tr>
-        <td><input type="button" id="Add" name="addition" value="Addition"></td>
-        <td><input type="button" id="Sub" name="subtraction" value="Subtraction"></td>
-        <td><input type="button" id="Div" name="division" value="Division"></td>
-        <td><input type="button" id="Mul" name="multiplication" value="Multiplication"></td>
+        <td><input type="button" id="Add" onclick="Add()" name="addition" value="Addition"></td>
+        <td><input type="button" id="Sub" onclick="Sub()" name="subtraction" value="Subtraction"></td>
+        <td><input type="button" id="Div" onclick="Div()" name="division" value="Division"></td>
+        <td><input type="button" id="Mul" onclick="Mul()" name="multiplication" value="Multiplication"></td>
     </tr>
+    
    </table>
+   
 </body>
 <script src="Task15.js"></script>
 </html>

@@ -1,0 +1,28 @@
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 200px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+}
+
+.row {
+    border-top: 2px solid black;
+    width: 100%;
+}
+
+.small {
+    height: 10%;
+}
+
+.large {
+    height: 50%;
+}

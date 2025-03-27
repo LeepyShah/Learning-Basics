@@ -6,7 +6,9 @@ input[type="button"]{
     text-align: center;
     padding: 6px;
     border: 4px solid black;
-   
+}
+input[type="button"]:hover {
+    background-color: yellow;
 }
 #Add{
     color: beige;

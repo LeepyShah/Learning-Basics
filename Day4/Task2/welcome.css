@@ -1,0 +1,11 @@
+.register{
+    padding: 12px;
+    color:white;
+    background-color:rgb(64, 9, 116);
+    border-radius: 5px;
+    font-weight: bold;
+}
+.register:hover{
+    color:rgb(25, 2, 47);
+    background-color:rgb(245, 237, 237);
+}

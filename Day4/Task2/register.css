@@ -1,0 +1,54 @@
+body{
+    background-image: url("image.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: fixed;
+ 
+ }
+ .container{
+     background-color: rgb(158, 204, 250);
+     margin: 100px 600px 100px 600px;
+     padding: 10px;
+     text-align: center;
+     border-radius: 4px;
+     height: 300px;
+     border: 3px solid rgb(251, 249, 249);
+     
+ }
+ .top{
+     background-color: rgb(255, 255, 255);
+     padding: 10px;
+     margin: 5px;
+ }
+ .register-heading{
+     color: rgb(64, 9, 116);
+ }
+ .register-label{
+     margin-left: 5px;
+     font-weight: bold;
+ }
+ .register-password-label{
+     font-weight: bold;
+ }
+ .mid{
+     padding: 10px;
+     margin: 5px;
+ }
+ .bottom{
+     background-color:white;
+     padding: 10px;
+     margin: 5px;
+ }
+ .register-submit{
+     padding: 12px;
+     color:white;
+     background-color:rgb(64, 9, 116);
+     border-radius: 5px;
+     width: 100%;
+ }
+ .register-input{
+     margin: 7px;
+     height: 20px;   
+ }
+ 
+ 

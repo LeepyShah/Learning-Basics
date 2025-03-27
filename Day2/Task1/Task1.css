@@ -1,59 +1,54 @@
-*{
+* {
     margin: 10px;
-    
 }
 
-
-.container{
-    
-    background-color:rgb(243, 243, 251);
+.container {
+    background-color: rgb(243, 243, 251);
     border-radius: 10px;
-    justify-content:center;
-    width:30%;
+    justify-content: center;
+    width: 30%;
     margin: 5px;
-  
     padding: 10px;
 }
-.details{
-    
+
+.details {
     width: 90%;
     margin: 5px;
-    height:30px;
+    height: 30px;
     border: none;
-    background-color:rgb(235, 236, 238);
+    background-color: rgb(235, 236, 238);
     border-radius: 3px;
     padding: 5px;
 }
 
-.box2{
+.box2 {
     color: white;
     background-color: rgb(43, 43, 182);
     height: 50px;
     font-weight: 700;
 }
-.box1{
+
+.box1 {
     padding: 6px;
-    height:50px;
+    height: 50px;
 }
-.heading{
+
+.heading {
     display: flex;
     text-align: center;
-    
-  
-    
 }
-h3{
+
+h3 {
     margin-left: 0;
 }
-.dot{
+
+.dot {
     color: white;
     background-color: rgb(43, 43, 182);
-    border-radius: 50%;
+    border-radius: 50% 50% 50% 0%;
     height: 20px;
     width: 20px;
     margin-left: 0;
     padding: 2px;
     margin-bottom: 0;
-   
-
 }

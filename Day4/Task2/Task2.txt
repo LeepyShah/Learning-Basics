@@ -1,0 +1,7 @@
+<!-- Create a Website that contains the below-mentioned pages in it,
+2.1. Login page
+2.2. Register page
+2.3. Welcome page
+2.4. Registration confirm page
+Add all validations for the pages in it and also Should be able to redirect
+between all these pages. -->

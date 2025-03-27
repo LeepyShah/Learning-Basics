@@ -1,65 +1,18 @@
-body{
-    background-color: black;
-    margin: 40px 80px;
-   
+.container {
+  height: 690px;
+  background-image: url("Headlines.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 10px 20px;
 }
-.container{
-  
-    height:690px;
-    background-image: url("Headlines.png");
-    background-size:contain;
-    background-repeat: no-repeat; 
-    margin: 10px 20px; 
-}
-.sideHeading{
-    align-content:end;
 
-   
-
-}
 #scroll-container {
-    
-    background-color:rgb(245, 162, 84);
-    border: 3px solid rgb(249, 96, 7);
-    overflow: hidden;
-    word-wrap: no-wrap;
-    padding: 4px;
-
-  }
-  
-  #scroll-text {
-    /* animation properties */
-    -moz-transform: translateX(100%);
-    -webkit-transform: translateX(100%);
-    transform: translateX(100%);
-    
-    -moz-animation: my-animation 15s linear infinite;
-    -webkit-animation: my-animation 15s linear infinite;
-    animation: my-animation 15s linear infinite;
-  }
-  
-  /* for Firefox */
-  @-moz-keyframes my-animation {
-    from { -moz-transform: translateX(100%); }
-    to { -moz-transform: translateX(-100%); }
-  }
-  
-  /* for Chrome */
-  @-webkit-keyframes my-animation {
-    from { -webkit-transform: translateX(100%); }
-    to { -webkit-transform: translateX(-100%); }
-  }
-  
-  @keyframes my-animation {
-    from {
-      -moz-transform: translateX(100%);
-      -webkit-transform: translateX(100%);
-      transform: translateX(100%);
-    }
-    to {
-      -moz-transform: translateX(-100%);
-      -webkit-transform: translateX(-100%);
-      transform: translateX(-100%);
-    }
-  }  
-
+  background-color: rgb(245, 162, 84);
+  border: 3px solid rgb(249, 96, 7);
+  padding: 4px;
+  margin-top: 510px;
+  margin-left: 220px;
+  /* width:"64%"; direction:"right" ;height:"40px"; */
+  text-align: center;
+  justify-content: center;
+}

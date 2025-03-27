@@ -1,0 +1,38 @@
+<!-- Build a web page with an image table viewer that allows users to upload a CSV
+file containing links to images on the web. The table should display the images in
+rows, and each row should have a download button for the corresponding image. -->
+<!--Index.html-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSV Viewer</title>
+    <link rel="stylesheet" href="Task6.css">
+</head>
+
+<body>
+    <div class="main">
+        <h1>IMAGE TABLE VIEWER</h1>
+        <input type="file" id="csv">
+        <table id="table" border="1"></table>
+        
+    </div>
+    <script src="Task6.js"></script>
+</body>
+
+</html>
+
+<!-- CSV File Upload:
+
+The user should be able to upload a CSV file.
+The CSV file will contain links to images hosted on the web.
+Image Table Viewer:
+
+After uploading the CSV file, the web page should parse the file and display the images in a table format.
+Each row of the table should represent one image.
+Download Button:
+
+Each row in the table should include a Download button.
+Clicking the button should allow the user to download the corresponding image. -->

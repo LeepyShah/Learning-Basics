@@ -12,6 +12,5 @@ function HighestNumber(num){
 }
 
 
-
 num=(prompt("Enter Number:"))
 HighestNumber(num)
