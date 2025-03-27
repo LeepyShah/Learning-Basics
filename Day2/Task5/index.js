@@ -3,13 +3,7 @@ import {initializeApp} from 'firebase/app'
 
 const firebaseApp=initializeApp({
 
-  apiKey: "AIzaSyAgsV4fRpCTCsnzST3jAIJ-Ypg0TH_WOfA",
-  authDomain: "accountdetails-51c16.firebaseapp.com",
-  projectId: "accountdetails-51c16",
-  storageBucket: "accountdetails-51c16.firebasestorage.app",
-  messagingSenderId: "822120055780",
-  appId: "1:822120055780:web:e8df41e608d4163e4efdf1",
-  measurementId: "G-SFX1FF5HGN"
+// your firebase code
 });
 //iniyialize firebase
 firebase.initializeApp(firebaseCofig)
