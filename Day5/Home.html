@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORT DHARIYAWAD – :: Heritage Hotel</title>
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="images/FORT DHARIYAWAD icon.webp">
+    <!-- css file -->
+    <link rel="stylesheet" href="home.css">
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fontawesome.com/icons/location-dot?f=classic&s=solid">
+    <!-- Font Awesome 6 Free CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <!---------------------------------------------- navbar------------------------------------------------>
+    <div class="topnav" id="myTopnav">
+        <div class="top-image">
+            <a href="Home.html" class="top-image"><img src="images/FORT DHARIYAWAD icon.webp" alt="Fort Dhariyawad"
+                    class="img-responsive" width="80"></a>
+        </div>
+        <a href="#Home.html"><span>Home</span></a>
+        <a href="#Amenities.html"><span>Amenities</span></a>
+        <a href="#Excursion.html"><span>Excursion</span></a>
+        <a href="#Rooms.html"><span>Rooms</span></a>
+        <a href="#Gallery.html"><span>Gallery</span></a>
+        <a href="#ContactUs.html"><span>ContactUs</span></a>
+        <a href="#Blog.html"><span>Blog</span></a>
+        <a href="#Pratap Niwas"><span>Pratap Niwas</span></a>
+        <a href="#Book Online"><span id="book-button">Book online</span></a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars" id="font-awesome"></i>
+        </a>
+    </div>
+    <!----------------------------------------- middle part ---------------------------------------------->
+    <!-- Slide-1 -->
+    <div class="slideshow-container" id="carousel1">
+        <div class="mySlides ">
+            <img
+                src="https://fortdhariyawad.com/wp-content/uploads/slider/cache/a457cd8aaf9c2799b81c3b19b41bd388/1-7.png">
+        </div>
+        <div class="mySlides">
+            <img
+                src="https://fortdhariyawad.com/wp-content/uploads/slider/cache/03a55b4bc050754d7d6244c7e329522c/3-5-1.png">
+        </div>
+        <div class="mySlides">
+            <img
+                src="https://fortdhariyawad.com/wp-content/uploads/slider/cache/77a7f7b1da13c822894f050d968cc9bd/HomePage-Slide-3-1.jpg">
+        </div>
+        <div class="mySlides">
+            <img
+                src="https://fortdhariyawad.com/wp-content/uploads/slider/cache/ae6c5d2abc87dd5f50152a894705e4a2/HomePage-Slide-4.jpg">
+        </div>
+        <div class="mySlides">
+            <img
+                src="https://fortdhariyawad.com/wp-content/uploads/slider/cache/3314a3cf45aa2f511bc7df07ac989012/2-4.png">
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1, 'carousel1')">❮</a>
+        <a class="next" onclick="plusSlides(1, 'carousel1')">❯</a>
+    </div>
+    <br>
+    <!-----------------------------------------------Book Online----------------------------------------->
+    <div class="book-online">
+        <form method="post" name="frmHotelDetails" class="main-online-form" target="_parent">
+            <table class="booking-table" align="center">
+                <tbody>
+                    <tr>
+                        <td class="spacer">&nbsp;</td>
+                        <td class="input-cell">
+                            <input type="date" name="checkInDateParam" class="input-date" placeholder="Check In Date">
+                        </td>
+                        <td class="input-cell">
+                            <select name="selStay" id="selStay" class="input-select"
+                                onchange="document.getElementById('numNightsParam').value=this.value;">
+                                <option value="1">Number of Nights</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                            </select>
+                        </td>
+
+                        <td class="input-cell">
+                            <input type="hidden" name="numNightsParam" id="numNightsParam" value="1">
+                            <input type="submit" value="Book Online" name="cmdProceedToStep2" id="cmdProceedToStep2"
+                                class="btn-submit">
+                        </td>
+                        <td class="input-cell">
+                            <img src="https://eglobe-solutions.com/mailer/images/card5.png" alt="Credit card"
+                                class="credit-card-img">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+    </div>
+    <!--------------------------------------------Information---------------------------------------------->
+    <section class="welcome-section">
+        <h2 class="welcome-heading">FORT DHARIYAWAD WELCOMES YOU!</h2>
+
+        <div class="information">
+            <div class="history">
+                <span>
+                    Converted into a heritage hotel, the elegant Fort of Dhariyawad holds a glorious history.
+                </span>
+            </div>
+            <div class="local">
+                <span>
+                    Located at the south of Rajasthan, Fort Dhariyawad was founded by the Royal Prince Sahasmal
+                    (the second son of the legendary hero Maharana Pratap of Mewar, Udaipur) in the middle of 16th
+                    century.
+                </span>
+            </div>
+            <div class="know-more">
+                <a href="#about-us">KNOW MORE ABOUT US</a>
+            </div>
+        </div>
+    </section>
+    <br>
+    <!----------------------------------------------OUR ATTRACTIONS----------------------------------------------->
+    <h2 class="section-main-title">
+        <span class="underline">Ou</span>r Attractions
+    </h2>
+    <!-- Slide-2 -->
+    <div class="slideshow-container" id="carousel2">
+        <div class="mySlides">
+            <img
+                src="https://fortdhariyawad.com/wp-content/uploads/slider/cache/b16a3ff00e940900f0d380cc4abf6ffc/BelowSubscribe-920x800-1.jpg">
+            <div class="mySlides-card">
+                <h1>Sitamata Sanctuary</h1>
+                <p>Bestowed with rich biodiversity, Sitamata Sanctuary is a wilderness pilgrimage, famous for the rare
+                    flying squirrels and leopards.</p>
+            </div>
+        </div>
+
+        <div class="mySlides">
+            <img
+                src="https://fortdhariyawad.com/wp-content/uploads/slider/cache/ef52356a74b2861ae11d05b6c1f70bac/WO-JunglesideLunch1200x800-2.jpg">
+            <div class="mySlides-card">
+                <h1>Riverside Jungle Lunch</h1>
+                <p>Relish a uniquely tranquil lunch experience right in the core of the jungle alongside a perennial
+                    river.</p>
+            </div>
+        </div>
+        <div class="mySlides">
+            <img
+                src="https://fortdhariyawad.com/wp-content/uploads/slider/cache/81772277904096751e0e2b136d6700b9/Slider-3-wo-3.jpg">
+            <div class="mySlides-card">
+                <h1>Jeep Safari</h1>
+                <p>People enjoy to visit the area around the hotel and sanctuary by Jeep.</p>
+            </div>
+        </div>
+        <div class="mySlides">
+            <img
+                src="https://fortdhariyawad.com/wp-content/uploads/slider/cache/33408c982ce7b6310967aaf0e8819fd8/BelowSubscribe-920x800-6.jpg">
+            <div class="mySlides-card">
+                <h1>Naglia Dam</h1>
+                <p>It is a small dam designed to reduce flow velocity which also controls flooding in that area.</p>
+            </div>
+        </div>
+        <div class="mySlides">
+            <img
+                src="https://fortdhariyawad.com/wp-content/uploads/slider/cache/33408c982ce7b6310967aaf0e8819fd8/BelowSubscribe-920x800-6.jpg">
+            <div class="mySlides-card">
+                <h1>Jakham Dam</h1>
+                <p>This dam is years old. It was constructed to confine the reservoir to permit a higher water elevation
+                    and storage</p>
+            </div>
+        </div>
+        <div class="mySlides">
+            <img
+                src="https://fortdhariyawad.com/wp-content/uploads/slider/cache/d48633e00542ab69bf36327634baf37c/BelowSubscribe-920x800-7.jpg">
+            <div class="mySlides-card">
+                <h1>Tribal Village Tour</h1>
+                <p>The city of Dhariyawad is enclosed with a number of small villages with tribes such as Bhil and Meena
+                    constituting the population.</p>
+                <br>
+                <p>They stay in huts composed of mud and straw with thatched roofs and floors coated with cow dung and
+                    mud. The villagers make handcrafted doors and create designs on them using wheat starch.</p>
+            </div>
+        </div>
+        <div class="mySlides">
+            <img
+                src="https://fortdhariyawad.com/wp-content/uploads/slider/cache/ac5ed819d9825e83318f1a07fefc5d57/WO-1200x800-1.jpg">
+            <div class="mySlides-card">
+                <h1>Evening Safari With High Tea</h1>
+                <p>The Evening Safari at Fort Dhariyawad is a thrilling and rejuvenating experience. The excursion
+                    begins with a drive into the forest of Sitamata Sanctuary followed by high tea.</p>
+            </div>
+        </div>
+        <a class="prev" onclick="plusSlides(-1, 'carousel2')">❮</a>
+        <a class="next" onclick="plusSlides(1, 'carousel2')">❯</a>
+    </div>
+    <br>
+    <!------------------------------------------------AMENITIES----------------------------------------------->
+    <h2 class="section-main-title">
+        <span class="underline">Am</span>enities
+    </h2>
+    <div class="amenities-container">
+        <div class="amenities-item">
+            <img src="	https://fortdhariyawad.com/wp-content/uploads/2022/02/doctor-on-call-50x50.png" alt="Amenities 1"
+                class="amenities-image">
+            <h4 class="amenities-title">DOCTOR ON CALL</h4>
+        </div>
+        <div class="amenities-item">
+            <img src="https://fortdhariyawad.com/wp-content/uploads/2022/02/laundry-50x50.png" alt="Amenities 2"
+                class="amenities-image">
+            <h4 class="amenities-title">LAUNDDRY</h4>
+        </div>
+        <div class="amenities-item">
+            <img src="https://fortdhariyawad.com/wp-content/uploads/2022/02/jeep-2-50x50.png" alt="Amenities 3"
+                class="amenities-image">
+            <h4 class="amenities-title">JEEP SAFARI</h4>
+        </div>
+    </div>
+    <div class="amenities-container-1">
+        <div class="amenities-item">
+            <img src="https://fortdhariyawad.com/wp-content/uploads/2022/02/Swimmming-Pool-50x50.png" alt="Amenities 3"
+                class="amenities-image">
+            <h4 class="amenities-title">SWIMMING POOL</h4>
+
+        </div>
+        <div class="amenities-item">
+            <img src="https://fortdhariyawad.com/wp-content/uploads/2022/02/internet-fax-call-50x50.png"
+                alt="Amenities 3" class="amenities-image">
+            <h4 class="amenities-title">Internet, Fax & Telephone</h4>
+        </div>
+    </div>
+    <br><br>
+    <!-----------------------------------------------ROOM DESCRIPTION----------------------------------------------->
+    <!-- Slide-3 -->
+    <div class="room-container" id="carousel-card-1">
+        <div class="room">
+            <h2 class="room-heading">
+                <span class="underline">ROO</span>MS
+            </h2>
+            <p class="room-description">All the rooms have a traditional Rajasthani ambience, thus enhancing the flavour
+                of the visitors stay at Fort Dhariyawad. The rooms have attached bathrooms and all modern amenities.</p>
+        </div>
+        <div>
+            <div class="display-area">
+                <div class="cards-wrapper" id="card-carousel">
+
+                    <div class="card"><img src="https://fortdhariyawad.com/wp-content/uploads/2022/02/WO-550x300-1.png"
+                            alt=""></div>
+                    <div class="card"><img src="https://fortdhariyawad.com/wp-content/uploads/2022/02/WO-550x300-2.png "
+                            alt=""></div>
+                    <div class="card"><img src="https://fortdhariyawad.com/wp-content/uploads/2022/02/WO-550x300-3.png"
+                            alt=""></div>
+                    <div class="card"><img src="https://fortdhariyawad.com/wp-content/uploads/2022/02/WO-550x300-4.png"
+                            alt="">
+                    </div>
+
+                    <div class="card"><img
+                            src="https://fortdhariyawad.com/wp-content/uploads/2022/02/Copy-of-FD-550x300-5-1.png"
+                            alt=""></div>
+                    <div class="card"><img
+                            src="https://fortdhariyawad.com/wp-content/uploads/2022/02/Copy-of-FD-550x300-6-1.png"
+                            alt=""></div>
+                    <div class="card"><img
+                            src="https://fortdhariyawad.com/wp-content/uploads/2022/02/Copy-of-FD-550x300-7-1.png"
+                            alt=""></div>
+                    <div class="card"><img
+                            src="https://fortdhariyawad.com/wp-content/uploads/2022/02/Copy-of-FD-550x300-8.png" alt="">
+                    </div>
+
+                    <div class="card"><img
+                            src="https://fortdhariyawad.com/wp-content/uploads/2022/02/Copy-of-FD-550x300-9-1.png"
+                            alt=""></div>
+                    <div class="card"><img
+                            src="https://fortdhariyawad.com/wp-content/uploads/2022/02/Copy-of-FD-550x300-10-1.png"
+                            alt=""></div>
+                    <div class="card"><img
+                            src="https://fortdhariyawad.com/wp-content/uploads/2022/02/Copy-of-FD-550x300-11-1.png"
+                            alt=""></div>
+                    <div class="card"><img
+                            src="https://fortdhariyawad.com/wp-content/uploads/2022/02/Copy-of-FD-550x300-12.png"
+                            alt=""></div>
+
+                    <div class="card"><img
+                            src="https://fortdhariyawad.com/wp-content/uploads/2022/02/Copy-of-FD-550x300-13-1.png"
+                            alt=""></div>
+                    <div class="card"><img
+                            src="https://fortdhariyawad.com/wp-content/uploads/2022/02/Copy-of-FD-550x300-14-1.png"
+                            alt=""></div>
+                </div>
+            </div>
+            <div class="dots-wrapper" id="dots-wrapper">
+                <button class="dot active"></button>
+                <button class="dot"></button>
+                <button class="dot"></button>
+                <button class="dot"></button>
+                <button class="dot"></button>
+                <button class="dot"></button>
+                <button class="dot"></button>
+                <button class="dot"></button>
+                <button class="dot"></button>
+            </div>
+        </div>
+    </div>
+    <br>
+    <!-------------------------------------------------Looby and Dinning------------------------------------------->
+    <!-- Slide-4 -->
+    <div class="room-container" id="carousel-card-2">
+        <div>
+            <div class="display-area">
+                <div class="cards-wrapper" id="card-carousel">
+
+                    <div class="card"><img
+                            src="https://fortdhariyawad.com/wp-content/uploads/2022/02/Copy-of-FD-550x300-1-1.png"
+                            alt=""></div>
+                    <div class="card"><img
+                            src="https://fortdhariyawad.com/wp-content/uploads/2022/02/Copy-of-FD-550x300-2-1.png "
+                            alt=""></div>
+                    <div class="card"><img
+                            src="https://fortdhariyawad.com/wp-content/uploads/2022/02/Copy-of-FD-550x300-3-1.png"
+                            alt=""></div>
+                    <div class="card"><img
+                            src="https://fortdhariyawad.com/wp-content/uploads/2022/02/Copy-of-FD-550x300-4-1.png"
+                            alt="">
+                    </div>
+                </div>
+                <div class="dots-wrapper" id="dots-wrapper">
+                    <button class="dot active"></button>
+                    <button class="dot"></button>
+                    <button class="dot"></button>
+                    <button class="dot"></button>
+                </div>
+            </div>
+        </div>
+        <!-- DESCRIPTION -->
+        <div class="room">
+            <h2 class="room-heading">
+                <span class="underline">LOBB</span>Y &amp; DINING
+            </h2>
+
+            <p class="room-description">Guests are served both Indian and Continental dishes and can also enjoy
+                the delicious Rajasthani cuisine.</p>
+        </div>
+    </div>
+    <!-----------------------------------------------SUBSCRIBE PAGE-------------------------------------------->
+    <div>
+        <div class="subscribe">
+            <p class="header">
+            <h3>
+                <span><strong>SUBSCRIBE&nbsp; TO&nbsp; OUR&nbsp;NEWSLETTER</strong></span>
+            </h3>
+            <strong>WE&nbsp; WILL&nbsp; KEEP&nbsp; YOUR&nbsp; EMAIL&nbsp; SAFE,&nbsp; WE&nbsp; PROMISE&nbsp; !</strong>
+            <div class="subscribe-form">
+                <div class="subscribe-email">
+                    <input type="text" id="email" placeholder="ENTER YOUR EMAIL ADDRESS">
+                </div>
+                <div class="subscribe-button">
+                    <button type="submit" value="SUBSCRIBE">SUBSCRIBE</button>
+                </div>
+            </div>
+            </p>
+        </div>
+    </div>
+    <br><br>
+    <!-------------------------------------------------CONTACT US----------------------------------------------->
+    <div class="ContactUs">
+        <div>
+            <h2>
+                <span class="underline">CONT</span>ACT US
+            </h2>
+        </div>
+        <div>
+            <p><span>FOR RESERVATIONS CONTACT:</span></p>
+        </div>
+
+        <ul class="contact-details">
+            <li><i class="fa-solid fa-location-dot"></i> P.O. DHARIYAWAD, DISTT. PRATAPGARH, RAJASTHAN, INDIA</li>
+            <li>+91 9413022050, +91 9829737722</li>
+            <li><i class="fa-solid fa-phone"></i> +91 701 666 2593 (Reservations)</li>
+            <li><i class="fa-solid fa-envelope"></i> fortdhariyawad@fortdhariyawad.com, fortdhariyawad@yahoo.com</li>
+        </ul>
+
+        <div class="row">
+            <!-- Contact Form -->
+            <div class="contact-form col-md-6">
+                <div class="input-container">
+                    <input type="text" name="your-name" placeholder="Your Name">
+                    <i class="fa-solid fa-user"></i>
+                </div>
+                <div class="input-container">
+                    <input type="email" name="your-email" placeholder="Email">
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div class="input-container">
+                    <input type="tel" name="Telephone" placeholder="Telephone">
+                    <i class="fa-solid fa-phone"></i>
+                </div>
+                <div class="dropdown-container">
+                    <select class="custom-select">
+                        <option>---</option>
+                        <option>Suits & Rooms</option>
+                        <option>Sitamata Sanctuary</option>
+                    </select>
+                </div>
+                <div class="input-container">
+                    <textarea name="your-message" rows="4" placeholder="Message"></textarea>
+                </div>
+                <div class="input-container">
+                    <input type="text" name="captcha-888" placeholder="Anti-Spam Question">
+                    <i class="fa-solid fa-shield-halved"></i>
+                </div>
+                <div>
+                    <input type="submit" value="SEND" class="send-button">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- #############################################---FOOTER---######################################### -->
+    <div class="footer">
+        <div class="attractions">
+            <h4><span>OUR ATTRACTIONS</span></h4>
+            <div class="underline-footer"></div>
+            <ul>
+                <li><a href="https://fortdhariyawad.com" alt="">A Visit To Thewa Jewellery Makers’ Workshop</a></li>
+                <li><a href="https://fortdhariyawad.com/our-attractions/a-visit-to-thewa-jewellery-makers-workshop/"
+                        alt="">Baneshwar Tribal Fair</a></li>
+                <li><a href="https://fortdhariyawad.com/our-attractions/baneshwar-tribal-fair/" alt="">Sitamata Wildlife
+                        Sanctury</a></li>
+                <li><a href="https://fortdhariyawad.com/our-attractions/riverside-jungle-lunch/" alt="">Riverside Jungle
+                        lunch</a></li>
+                <li><a href="https://fortdhariyawad.com/our-attractions/sitamata-temple/" alt="">Sitamata Temple</a>
+                </li>
+                <li><a href="https://fortdhariyawad.com/our-attractions/sunrise-or-sundowner-at-the-jakham-reservoir/"
+                        alt="">Sunrise or Sundowner at the Jakham Reservoir</a></li>
+                <li><a href="https://fortdhariyawad.com/our-attractions/tribal-village-tour/" alt="">Tribal Village
+                        Tour</a></li>
+            </ul>
+        </div>
+        <div class="attractions">
+
+            <div class="row">
+                <div>
+                    <h4><span>CONTACT DETAILS</span></h4>
+                    <div class=" underline-footer"></div>
+                </div>
+            </div>
+            <div class="textwidget"><b>Address:</b>
+                <br>
+                Fort Dhariyawad Heritage Hotel
+                <br>
+                P.O. Dhariyawad, Distt. Pratapgarh,
+                <br>
+                Rajasthan, India
+                <br>
+                <br>
+                <b>Direction: </b>
+                <br>
+                +91 9413022050,+91 9829737722
+                <br>
+                <br>
+                <b>Reservations: </b>
+                <br>
+                +91 701 666 2593
+                <br>
+                <br>
+                <b>URL: </b>
+                <br>
+                <a href="http://www.fortdhariyawad.com/">www.fortdhariyawad.com</a>
+                <ul class="social-icons">
+                    <li><a href="#" target="_blank" class="fa fa-facebook"></a></li>
+                    <li><a href="#" target="_blank" class="fa fa-instagram"></a></li>
+                </ul>
+                <a href="https://hotels.eglobe-solutions.com/fortdhariyawad/booking/detail">
+                    <div class="Book-now-tag"><img
+                            src="https://fortdhariyawad.com/wp-content/uploads/2023/02/button.png"></div>
+                </a>
+            </div>
+        </div>
+
+    </div>
+    </div>
+    <p>© 2025, Fort Dhariyawad. All Rights Reserved.</p>
+    <!--------------------------------------------------JS LINK--------------------------------------------->
+    <script src="home.js"></script>
+</body>
+
+</html>
