@@ -14,8 +14,11 @@ public class StringBufferExample {
       	String str = s.toString();
         System.out.println(str);
 
-       s.replace(1, 3, "Java");
-       System.out.println(str);
+       s.replace(1, 3, "  ");
+       System.out.println(s);
+
+       s.delete(1,3);
+      System.out.println(s);
     
      }
 }
