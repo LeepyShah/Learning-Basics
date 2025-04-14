@@ -19,7 +19,7 @@ class Main{
         if (r > n || n < 0 || r < 0) {
             System.out.println("Invalid input. Ensure that n ≥ r and both are non-negative.");
         }
-         } else {
+        else {
             int nPr = factorial(n) / factorial(n - r);
             int nCr = factorial(n) / (factorial(r) * factorial(n - r));
 

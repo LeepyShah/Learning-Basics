@@ -1,7 +1,8 @@
-
-second=document.getElementById('second')
-first=document.getElementById('first')
-function do_smallcircle(e){
-    e.preventDefault();
-}
-second.addEventListener('mouseover', function(event) {do_something(); });
+const circle1 = document.getElementById("circle1");
+const circle2 = document.getElementById("circle2");
+circle1.addEventListener("dragstart", (event) => {
+    event.dataTransfer.setData("size", circle1.offsetWidth);
+});
+circle2.addEventListener("dragover", (event) => {
+    event.preventDefault(); 
+});

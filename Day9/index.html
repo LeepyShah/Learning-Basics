@@ -1,19 +1,35 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Recursive Circles</title>
+    <style>
+        .circle {
+            position: absolute;
+            border-radius: 50%;
+        }
+        #circle1 {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            cursor: grab;
+            top: 50px;
+            left: 50px;
+        }
+        #circle2 {
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+            top: 200px;
+            left: 200px;
+        }
+    </style>
 </head>
 <body>
-    <!-- Create a web page that contains two small circles of the same size one with a red fill
-     and the other with a blue fill. -->
-     <div class="container">
-        <div class="circle1" id="first" draggable="true"></div>
-        <div class="circle2" id="second"></div>
-     </div>
-      <script src="script.js"></script>
+    <div id="circle1" class="circle" draggable="true"></div>
+    <div id="circle2" class="circle"></div>
+
+    <script src="script.js"></script>
 </body>
 </html>

@@ -5,10 +5,11 @@ class Main{
         Scanner sc=new Scanner(System.in);
         System.out.print("Enter number: ");
         int n=sc.nextInt();
+
         int n1=n;
         int d=0;
         int sum=0;
-        int digit=n.length;
+        int digit=String.valueOf(n).length();
         while(n!=0){
           d=n%10;
           sum=sum+(int)Math.pow(d,digit);
