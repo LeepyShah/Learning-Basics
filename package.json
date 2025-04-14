@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/LeepyShah/Learning-Basics#readme",
   "dependencies": {
+    "basic_training(mv-clouds)": "file:",
     "firebase": "^11.4.0",
     "lite-server": "^2.6.1",
     "prompt-sync": "^4.2.0"

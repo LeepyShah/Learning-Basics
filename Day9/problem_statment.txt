@@ -1,0 +1,15 @@
+Create a web page that contains two small circles of the same size one with a red fill
+and the other with a blue fill.
+● Now make the first circle to be Dragable and when we put this circle in the
+second circle it will store that inside the second circle making it slightly smaller
+than the outer circle (Second Circle) and another circle should appear in place
+of the first one with different colour and same properties and when dragged
+and dropped inside the second circle it will again reduce the size of the circle
+such that it will fit inside previous two circles and the process should happen
+indefinitely and dropped circles size should be reduced every time to fit into
+previous circle until it turns to a dot. This code will create two circles, one with
+a red fill and the other with a blue fill. in short, The first circle will be draggable,
+and when it is dropped inside the second circle, it will be stored inside the
+second circle and a new circle with a random fill colour will appear in place of
+the first circle. The process will continue indefinitely, with the new circles being
+smaller and smaller until they turn into dots.
