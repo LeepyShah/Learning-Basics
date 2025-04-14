@@ -2,18 +2,20 @@
     position: absolute;
     border-radius: 50%;
 }
+
 #circle1 {
     width: 100px;
     height: 100px;
     background-color: red;
     cursor: grab;
-    top: 50px;
+    top: 150px;
     left: 50px;
 }
+
 #circle2 {
     width: 100px;
     height: 100px;
     background-color: blue;
     top: 150px;
-    left: 150px;
+    left: 200px;
 }
