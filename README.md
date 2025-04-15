@@ -40,5 +40,72 @@ needs to be stored in the Firebase.
 <hr>
 
 # Day 3
+ ## Task -1 
+ Write a JavaScript function that returns the string with "something" appended
+ with a space " " to the given string value.
 
+ ## Task-2
+Javascript program that will return an integer number corresponding to the
+amount of digits in the given integer num.
 
+## Task-3
+Write a javascript program that returns `true` if the input string includes the string "ee"
+
+## Task-4
+"JavaScript program to display multiplication tables using user input integer value.
+Ex. User Input: 2
+2 * 1 = 2
+2 * 2 = 4
+….
+2 * 10 = 20"
+
+## Task-5
+Write a JavaScript function that takes a two-digit number and determines if it's
+the largest of two possible digit swaps
+Ex:- If we give 43 as user input then it will return false because swapping 43
+gives us 34, and 43 > 34."
+
+## Task-6
+Write a function that mimics (without the use of >>) the right shift operator and
+returns the result from the two given integers.
+Ex. 80 >> 3 = floor(80/2^3) = floor(80/8) = 10
+-24 >> 2 = floor(-24/2^2) = floor(-24/4) = -6
+## Task-7
+Write a javascript program that takes in a number as a string n and returns the
+number without trailing and leading zeros.
+Ex. removeLeadingTrailing(""230.000"") ➞ ""230""
+removeLeadingTrailing(""00402"") ➞ ""402""
+
+## Task-8
+Write a JavaScript function that takes a string and returns the count of vowels
+contained within it.
+Ex. User Input : Celebration ➙ 5"
+
+## Task-9
+"Create a function that moves all capital letters to the front of a word.
+Ex. ""hApPy"" ➞ APhpy"""
+## Task-10
+Sort the given string based on ASCII value
+## Task-11
+Create a function that takes two or more numbers as user input and adds them
+together to get a new number. The function then repeatedly multiplies the digits
+of the new number by each other, giving a new number, until the product is
+returned only 1 digit long. Return the final value.
+EX. User input - ""16 28"" then -- 16 + 28 = 44 after this it will add digits like this
+ --4 * 4 = 16 until it gets only single digit as value-- 1 * 6 = 6
+## Task-12
+ write a Javascript program that takes a number as its argument and returns an
+ array of all its factors.
+ Ex. 12 ➞ [1, 2, 3, 4, 6, 12]
+ 4 ➞ [1, 2, 4]
+## Task-13
+.Create a JavaScript function that takes a String value as an input and capitalizes
+ a letter if its ASCII value is even and returns its lowercase version if its ASCII
+ value is odd.
+ Ex. User Input: "THE LITTLE MERMAID"
+ Output: "THe LiTTLe meRmaiD"
+## Task-14
+ Write a JavaScript function that accepts a String with space-separated numbers
+ and returns the highest and lowest number (as a string).
+ Ex. User Input : "1 2 3 4 5"
+ Output : "5 1"
