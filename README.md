@@ -4,7 +4,7 @@
 ![Task-1](https://github.com/user-attachments/assets/eb059397-c907-4be0-a9a0-89aef8874aeb)
 
 ## Task-2
-![Task-2](https://github.com/user-attachments/assets/927ac605-34b0-477c-9dad-93f12d2089e8)
+![Task-2](https://github.com/user-attachments/assets/6d5af9de-a900-46cb-ba66-1f07c4f2fd8a)
 
 ## Task-3
 ![Task-3](https://github.com/user-attachments/assets/352da29f-b425-41b7-8f15-adf838882343)
