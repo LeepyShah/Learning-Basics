@@ -25,6 +25,8 @@ CSV.addEventListener("change", (event) => {
       </a>
                     <a href="path_to_file" download="proposed_file_name">Download</a> */
         }
+         
+            
         let input = document.createElement('button')
         
         input.innerText="Download"

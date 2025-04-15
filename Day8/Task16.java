@@ -55,6 +55,7 @@ public class Main {
 
         int result = countWays(dice, target);
         System.out.println("Number of combinations: " + result);
+        System.out.println("Memoization map: " + memo);
     }
 
     static int countWays(int dice, int target) {
@@ -81,3 +82,8 @@ public class Main {
     }
 }
 
+// containsKey(Object):
+// This method is used in Map Interface in Java to check whether
+//  a particular key is being mapped into the Map or not. It takes the
+// key element as a parameter and returns 
+// True if that element is mapped in the map.
